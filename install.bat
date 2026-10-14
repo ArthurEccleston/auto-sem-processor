@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-title SEM 比例尺分析工具 - 安装
+title AutoSEM Processor - 安装
 cd /d "%~dp0"
 
 rem 传 /q 参数可以跳过结尾的 pause(run.bat 会这样调它)

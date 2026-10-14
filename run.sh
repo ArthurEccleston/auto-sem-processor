@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# SEM 比例尺分析工具 - Linux / macOS 启动脚本
+# AutoSEM Processor - Linux / macOS 启动脚本
 # 用法:bash run.sh   (缺环境会自动先装)
 set -e
 cd "$(dirname "$0")"
@@ -8,7 +8,7 @@ cd "$(dirname "$0")"
 
 echo
 echo "  ============================================"
-echo "    SEM 比例尺分析工具  正在启动..."
+echo "    AutoSEM Processor  正在启动..."
 echo "    地址: http://127.0.0.1:8090"
 echo "    按 Ctrl+C 停止"
 echo "  ============================================"

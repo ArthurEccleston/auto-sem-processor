@@ -1,4 +1,4 @@
-"""SEM 比例尺分析工具 — 入口。
+"""AutoSEM Processor — 入口。
 
 运行方式:
     python app.py
@@ -26,7 +26,7 @@ def main() -> None:
     host = os.environ.get('LAB_HOST', '127.0.0.1')
     port = int(os.environ.get('LAB_PORT', '8090'))
     ui.run(
-        title='SEM 比例尺分析工具',
+        title='AutoSEM Processor',
         host=host,
         port=port,
         reload=False,            # 开发时可改 True 自动热重载

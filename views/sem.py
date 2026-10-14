@@ -254,7 +254,7 @@ HANDLE = 14  # 拖拽把手检测半径
 
 @ui.page('/')
 def sem_page():
-    ui.page_title('SEM 比例尺分析工具')
+    ui.page_title('AutoSEM Processor')
     # 页面外壳:一张通栏容器装所有卡片。`.page-in` 让卡片从下往上滑入(样式在 theme.py)。
     with ui.column().classes('w-full max-w-7xl mx-auto p-6 gap-6 page-in'):
         # 工作台从磁盘恢复(见 core/workspace.py):页面函数每次访问都会重新执行
@@ -264,7 +264,7 @@ def sem_page():
 
         # ---------- 标题行:名字 + API 配置入口 ----------
         with ui.row().classes('w-full items-center gap-3'):
-            ui.label('🔬 SEM 比例尺分析').classes('text-2xl font-bold')
+            ui.label('🔬 AutoSEM Processor').classes('text-2xl font-bold')
             ui.label('拖入电镜原图 → 识别比例尺 → 裁剪 → 批量出图') \
                 .classes('text-sm text-slate-500')
             ui.space()

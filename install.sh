@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# SEM 比例尺分析工具 - Linux / macOS 安装脚本
+# AutoSEM Processor - Linux / macOS 安装脚本
 # 用法:bash install.sh
 set -e
 cd "$(dirname "$0")"

@@ -1,4 +1,4 @@
-# AGENTS.md — 给自动化 agent 的安装与运行指令
+# AGENTS.md — AutoSEM Processor 的安装与运行指令
 
 这个文件是给"替别人把这套东西装起来"的 AI agent / 自动化脚本用的：命令照抄即可，
 每步都有可判定的成功条件。人看的使用说明在 [README.md](README.md)。

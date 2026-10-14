@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-title SEM 比例尺分析工具
+title AutoSEM Processor
 cd /d "%~dp0"
 
 if not exist ".venv\Scripts\python.exe" (
@@ -24,7 +24,7 @@ if not errorlevel 1 (
 
 echo.
 echo   ============================================
-echo     SEM 比例尺分析工具  正在启动...
+echo     AutoSEM Processor  正在启动...
 echo     地址: http://127.0.0.1:8090
 echo     浏览器会自动打开
 echo.

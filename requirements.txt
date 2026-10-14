@@ -1,4 +1,4 @@
-# SEM Scale-Bar Analyzer - runtime dependencies
+# AutoSEM Processor - runtime dependencies
 # NOTE: keep this file ASCII-only. On Windows, pip reads it with the system
 # locale encoding (GBK), so non-ASCII comments break installation.
 
