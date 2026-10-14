@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 运行期数据:拖进来的原图、生成的结果图、整合图、工作台状态。
+# 体积大,而且是本机私有的实验数据(电镜原图可能涉密),绝不进版本管理。
+data/
+
+# 本机配置与密钥 —— 绝不进版本管理(模板见 .env.example)
+.env
+.env.local
+.env.*.local
+
+# 系统
+Thumbs.db
+.DS_Store

@@ -1,0 +1,22 @@
+# SEM Scale-Bar Analyzer - runtime dependencies
+# NOTE: keep this file ASCII-only. On Windows, pip reads it with the system
+# locale encoding (GBK), so non-ASCII comments break installation.
+
+# UI framework (brings fastapi / uvicorn / socketio transitively)
+nicegui>=2.0,<3.0
+
+# image pipeline
+numpy>=1.24
+# MUST stay the "-headless" build: the desktop build needs libGL.so.1 and
+# fails to import on bare Linux / in containers.
+opencv-python-headless>=4.9,<6.0
+# >=10.1 required: ImageFont.load_default(size=...) only scales text from 10.1
+# on; on older Pillow the last-resort font renders a fixed 8px bitmap.
+pillow>=10.1
+
+# vision API (any OpenAI-compatible /chat/completions endpoint)
+httpx>=0.27
+
+# nicegui's upload route depends on it; pinned explicitly so a future nicegui
+# release cannot silently drop it and break the upload widget.
+python-multipart>=0.0.9

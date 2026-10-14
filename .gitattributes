@@ -1,0 +1,13 @@
+# 仓库里一律存 LF。
+# 这很关键:.sh 脚本如果被检出成 CRLF,在 Linux/macOS 上 bash 会直接报
+# `bad interpreter: /usr/bin/env bash^M` 而跑不起来 —— 这条保证它永远是 LF。
+* text=auto eol=lf
+
+# 例外:Windows 批处理在 CRLF 下更稳(cmd.exe 对 LF 的 bat 处理有坑)。
+*.bat text eol=crlf
+
+# 二进制,别碰
+*.png binary
+*.jpg binary
+*.tif binary
+*.ico binary
