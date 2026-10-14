@@ -4,6 +4,14 @@
 
 单页应用，**不依赖数据库，不需要装 Tesseract**，Windows / Linux / macOS 都能跑。
 
+![工作台界面](docs/screenshot.png)
+
+<sub>▲ 工作台：一次拖入多张原图 → 自动识别比例尺 → 框选裁剪 → 批量出图 → 拼整合图下载</sub>
+
+![示例输出](docs/example.png)
+
+<sub>▲ 产出：裁剪后重绘比例尺（数字居中在横线上方、带反色描边保证任何底色上都能看清），角标可按模板自动递增</sub>
+
 ---
 
 ## Quick Start (English)
